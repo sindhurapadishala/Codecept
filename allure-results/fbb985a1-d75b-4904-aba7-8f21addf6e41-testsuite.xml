@@ -1,0 +1,203 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631691698730' stop='1631691765992'>
+    <name>Navigating to RHM Pages:</name>
+    <title>Navigating to RHM Pages:</title>
+    <test-cases>
+        <test-case start='1631691703064' status='passed' stop='1631691765906'>
+            <name>Navigation to all pages</name>
+            <title>Navigation to all pages</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1631691705090' status='passed' stop='1631691749853'>
+                    <name>I: login "e2eqarhm+select_customer@mail.test.in.ibm.com", "selectcustomer"</name>
+                    <title>I: login "e2eqarhm+select_customer@mail.test.in.ibm.com", "selectcustomer"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631691705091' status='passed' stop='1631691709349'>
+                            <name>I am on page "/"</name>
+                            <title>I am on page "/"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I am on page "/"' source='db320505-6799-4a6b-a2da-d5a200efdf03-attachment.png' type='image/png' size='29488'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691709350' status='passed' stop='1631691712511'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 3' source='c9960276-17e3-4fff-b609-f4fcf7404af5-attachment.png' type='image/png' size='46126'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691712511' status='passed' stop='1631691713009'>
+                            <name>I fill field "//input[@id="email"]", "e2eqarhm+select_customer@mail.test.in.ibm.com"</name>
+                            <title>I fill field "//input[@id="email"]", "e2eqarhm+select_customer@mail.test.in.ibm.com"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="email"]", "e2eqarhm+select_customer@mail.test.in.ibm.com"' source='f5b19935-3481-46c5-8f58-cf09c9d22c79-attachment.png' type='image/png' size='54427'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691713009' status='passed' stop='1631691715160'>
+                            <name>I wait 2</name>
+                            <title>I wait 2</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 2' source='72bcd204-40d1-481b-884d-11a6504fa268-attachment.png' type='image/png' size='54423'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691715161' status='passed' stop='1631691715431'>
+                            <name>I click "Next"</name>
+                            <title>I click "Next"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Next"' source='f095b0ab-104d-40e9-aed5-d283688b2ae6-attachment.png' type='image/png' size='56404'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691715432' status='passed' stop='1631691719350'>
+                            <name>I wait for element "//button[@id="login-show-step2"]", 20</name>
+                            <title>I wait for element "//button[@id="login-show-step2"]", 20</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait for element "//button[@id="login-show-step2"]", 20' source='30621d01-03b2-46d4-b7f5-c97340122046-attachment.png' type='image/png' size='87596'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691719351' status='passed' stop='1631691719698'>
+                            <name>I click "Next"</name>
+                            <title>I click "Next"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Next"' source='c7991947-f1bf-459f-899e-af5356eb2d3e-attachment.png' type='image/png' size='88834'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691719699' status='passed' stop='1631691720328'>
+                            <name>I fill field "//input[@id="password"]", "selectcustomer"</name>
+                            <title>I fill field "//input[@id="password"]", "selectcustomer"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@id="password"]", "selectcustomer"' source='27b934eb-f481-480b-b00e-701a0aec1161-attachment.png' type='image/png' size='84449'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691720328' status='passed' stop='1631691723572'>
+                            <name>I wait 3</name>
+                            <title>I wait 3</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I wait 3' source='73e068b5-c293-4a08-ab0e-38caee81203e-attachment.png' type='image/png' size='78972'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691723572' status='passed' stop='1631691741529'>
+                            <name>I click "//button[@data-value-processing="Logging in ..."]"</name>
+                            <title>I click "//button[@data-value-processing="Logging in ..."]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//button[@data-value-processing="Logging in ..."]"' source='693f16cc-2654-4fe4-a364-694959a2a41d-attachment.png' type='image/png' size='123200'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691741529' status='passed' stop='1631691749853'>
+                            <name>I click "//*[@class="bx--header__name om-header__logo"]"</name>
+                            <title>I click "//*[@class="bx--header__name om-header__logo"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//*[@class="bx--header__name om-header__logo"]"' source='af583ae2-697c-4cf8-a7d2-013fa019e021-attachment.png' type='image/png' size='119160'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631691749853' status='passed' stop='1631691750337'>
+                    <name>I: clickWorkspace </name>
+                    <title>I: clickWorkspace </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631691749853' status='passed' stop='1631691750337'>
+                            <name>I click "Workspace"</name>
+                            <title>I click "Workspace"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Workspace"' source='a1f488e8-5cfd-40f9-8765-5cc25a5f761f-attachment.png' type='image/png' size='129430'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631691750337' status='passed' stop='1631691753570'>
+                    <name>I wait 3</name>
+                    <title>I wait 3</title>
+                    <attachments>
+                        <attachment title='Screenshot of step I wait 3' source='e3909d27-16c3-4155-88b5-0667410201ff-attachment.png' type='image/png' size='131677'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631691753571' status='passed' stop='1631691757787'>
+                    <name>I: clickDashboard </name>
+                    <title>I: clickDashboard </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631691753571' status='passed' stop='1631691757508'>
+                            <name>I click "Dashboard"</name>
+                            <title>I click "Dashboard"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "Dashboard"' source='7d12e1f4-4b14-4005-8eec-89875cbf0f00-attachment.png' type='image/png' size='99502'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691757508' status='passed' stop='1631691757787'>
+                            <name>I see element "//h6[text()="Dashboard"]"</name>
+                            <title>I see element "//h6[text()="Dashboard"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see element "//h6[text()="Dashboard"]"' source='f1fcb470-4c28-4f33-9870-ed47cb6cd9fa-attachment.png' type='image/png' size='98137'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631691757787' status='passed' stop='1631691762107'>
+                    <name>I: clickSoftware </name>
+                    <title>I: clickSoftware </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631691757787' status='passed' stop='1631691760961'>
+                            <name>I click "//span[text()="Software"]"</name>
+                            <title>I click "//span[text()="Software"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//span[text()="Software"]"' source='96c3f92c-6c21-4ac8-a018-98295ac28348-attachment.png' type='image/png' size='53666'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691760961' status='passed' stop='1631691762107'>
+                            <name>I see element "//h1[text()="Software"]"</name>
+                            <title>I see element "//h1[text()="Software"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see element "//h1[text()="Software"]"' source='b5e7cd4a-a665-4931-a5b7-2b827dc1abda-attachment.png' type='image/png' size='57562'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631691762107' status='passed' stop='1631691765906'>
+                    <name>I: clickDatasets </name>
+                    <title>I: clickDatasets </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1631691762107' status='passed' stop='1631691765599'>
+                            <name>I click "//span[text()="Datasets"]"</name>
+                            <title>I click "//span[text()="Datasets"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//span[text()="Datasets"]"' source='5f4390f0-0405-4046-b7f2-5933843cbdd5-attachment.png' type='image/png' size='87485'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631691765599' status='passed' stop='1631691765906'>
+                            <name>I see element "//h1[text()="Datasets"]"</name>
+                            <title>I see element "//h1[text()="Datasets"]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see element "//h1[text()="Datasets"]"' source='087908c6-ac57-4121-bd3a-3e5c2c9d5f05-attachment.png' type='image/png' size='92302'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
